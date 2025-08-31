@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name} | devChallenges</h1>
+<h1 align="center">Join Our Newsletter | devChallenges</h1>
 
 <div align="center">
    Solution for a challenge <a href="https://devchallenges.io/challenge/join-our-newsletter" target="_blank">Join Our Newsletter</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="{https://jonmc89.github.io/join-our-newsletter-master/}">
+    <a href="https://jonmc89.github.io/join-our-newsletter-master/">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://github.com/jonmc89}">
+    <a href="https://github.com/jonmc89">
       Solution
     </a>
     <span> | </span>
