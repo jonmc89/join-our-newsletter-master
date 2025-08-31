@@ -1,0 +1,36 @@
+/* || Global Stylings */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppin", sans-serif, serif;
+}
+
+:root {
+  /*Colours */
+
+  --Grey-1: #6c727f;
+  --Grey-2: #e5e7eb;
+  --Grey-3: #f9fafb;
+  --White: #fff;
+  --Black: #000;
+  --Blue: #284bce;
+  --Blue-Grey: #394150;
+
+  /* Font Size */
+
+  --Heading-FS: 3rem;
+  --Sub-Heading-FS: 1.25rem;
+  --Placeholder-FS: 1rem;
+  --Button-FS: 1rem;
+  --Helper-FS: 0.857rem;
+
+  /* Font Weight */
+
+  --Heading-FW: 600;
+  --Sub-Heading-FW: 400;
+  --Placeholder-FW: 500;
+  --Button-FW: 600;
+  --Helper-FW: 400;
+}
