@@ -53,7 +53,7 @@ main {
 }
 
 .header-text {
-  font-size: var(--Heading-FS);
+  font-size: clamp(var(--Button-FS), 5vw, 8rem);
   font-weight: var(--Heading-FW);
   text-align: center;
   margin-bottom: 2rem;
@@ -113,4 +113,16 @@ button:active {
   text-align: center;
   font-size: var(--Helper-FS);
   font-weight: var(--Helper-FW);
+}
+
+/* || Media Query */
+
+@media screen and (min-width: 51.25em) {
+  .main-text {
+    width: 34em;
+    margin-bottom: 4rem;
+  }
+  .email-card-container {
+    width: 30em;
+  }
 }
