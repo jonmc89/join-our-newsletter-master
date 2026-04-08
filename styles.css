@@ -8,6 +8,10 @@
 
 body {
     height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--off-white);
 }
 
 :root {
@@ -35,6 +39,90 @@ body {
 /* || Main Styles */
 
 /* Typography */
+
+h1 {
+    font-size: 3rem;
+    margin-block-end: 1rem;
+    color: var(--slate-blue);
+}
+
+.main-text {
+    font-size: 1.25rem;
+    text-align: center;
+    margin-block-end: 3.75rem;
+    color: var(--grey);
+}
+
+.email-input {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.submit-input {
+    font-size: 1rem;
+    color: var(--white);
+}
+
+h1,
+.submit-input {
+    font-family: "Poppins Semi Bold", Arial, Helvetica, sans-serif;
+}
+
+.main-text,
+.email-input,
+.helper-text,
+.author-info {
+    font-family: "Poppins Regular", Arial, Helvetica, sans-serif;
+}
+
+.helper-text {
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+/* Main */
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 36rem;
+    padding-top: 5rem;
+}
+
+img {
+    margin-block-end: 1rem;
+}
+
+form {
+    background-color: var(--white);
+    box-shadow: 1rem 1rem 1rem var(--light-grey);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    margin-block-end: 1.5rem;
+    width: 100%;
+}
+
+.email-input {
+    background-color: var(--off-white);
+    border: none;
+    border-radius: 0.75rem;
+}
+
+.submit-input {
+    background-color: var(--blue);
+    border: none;
+    border-radius: 0.75rem;
+}
+
+.email-input,
+.submit-input {
+    padding: 1.25rem 0;
+    cursor: pointer;
+}
 
 /* Author Details */
 
