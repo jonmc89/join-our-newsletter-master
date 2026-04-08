@@ -1,0 +1,50 @@
+/* || Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+:root {
+    --grey: #6c727f;
+    --light-grey: #e5e7eb;
+    --off-white: #f9fafb;
+    --white: #fff;
+    --black: #000;
+    --blue: #284bce;
+    --slate-blue: #394150;
+}
+
+@font-face {
+    font-family: "Poppins Regular";
+    src: url(./fonts/poppins-v24-latin-regular.woff2) format("woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Poppins Semi Bold";
+    src: url(./fonts/poppins-v24-latin-600.woff2) format("woff2");
+    font-weight: 600;
+}
+
+/* || Main Styles */
+
+/* Typography */
+
+/* Author Details */
+
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
