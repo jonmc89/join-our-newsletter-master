@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="{https://jonmc89.github.io/join-our-newsletter-master/}">
+    <a href="https://jonmc89.github.io/join-our-newsletter-master/">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://github.com/jonmc89/join-our-newsletter-master}">
+    <a href="https://github.com/jonmc89/join-our-newsletter-master">
       Solution
     </a>
     <span> | </span>
